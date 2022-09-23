@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practika4.Page1"
+             Title="Без кнопки">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282828">
+
+
+            <Frame BackgroundColor="#262626" Padding="24" CornerRadius="0">
+                <StackLayout>
+                    <Label Text="Практическая 4" HorizontalTextAlignment="Center" TextColor="#B0B0B0" FontSize="36"/>
+                    <Switch x:Name="Swit" HorizontalOptions="Center"  Toggled="Switch_Toggled"  IsToggled="True"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout x:Name = "Body">
+                <StackLayout TranslationX="30" TranslationY="30" >
+                    <RadioButton x:Name="Zima"  Content="Зима" TextColor="#B0B0B0" FontSize="35"   IsChecked="False" CheckedChanged="RadioButton_CheckedChanged" />
+                    <RadioButton x:Name="Vesna" Content="Весна" TextColor="#B0B0B0" FontSize="35" IsChecked="False" CheckedChanged="RadioButton_CheckedChanged" />
+                    <RadioButton x:Name="Leto"  Content="Лето" TextColor="#B0B0B0" FontSize="35"  IsChecked="False" CheckedChanged="RadioButton_CheckedChanged" />
+                    <RadioButton x:Name="Osen"  Content="Осень" TextColor="#B0B0B0" FontSize="35" IsChecked="False" CheckedChanged="RadioButton_CheckedChanged" />
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

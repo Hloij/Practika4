@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Practika4"
+             x:Class="Practika4.MainPage" BarBackgroundColor="#282828" BarTextColor="#B0B0B0">
+
+    <TabbedPage.Children>
+        <local:Page1/>
+        <local:Page2/>
+        <local:Page3/>
+    </TabbedPage.Children>
+   
+    
+</TabbedPage>

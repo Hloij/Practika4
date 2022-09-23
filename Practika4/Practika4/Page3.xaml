@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practika4.Page3"
+             Title="О программе">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282828">
+            <Label  FontAttributes="Italic,Bold" Text="Вариант 5" TextColor="#B0B0B0" FontSize="40"/>
+            <Label Text="    "/>
+            <Label  FontAttributes="Italic,Bold" Text="Задание" TextColor="#B0B0B0" FontSize="40"/>
+            <Label TextColor="#B0B0B0" Text="Составить программу, которая бы по введенному времени года выдавала бы название месяцев, относящихся к нему."  FontSize="30"/>
+            <Label Text="    "/>
+            <Label Text="Работу выполнил" FontAttributes="Italic,Bold" TextColor="#B0B0B0" FontSize="40"/>
+            <Label TextColor="#B0B0B0" Text="Студент группы ИСП-41 Бандурикин Дмитрий"  FontSize="30"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
